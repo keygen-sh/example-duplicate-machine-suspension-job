@@ -1,5 +1,10 @@
 # Example Duplicate Machine Suspension Job
 
+⚠️ **NOTICE: this can now be enforced at the license policy level using
+the policy's [fingerprint uniqueness strategy](https://keygen.sh/docs/api/#policies-object-attrs-fingerprintUniquenessStrategy)
+attribute. No need to run a background job.** We're leaving this here
+for educational purposes, as an example for other types of jobs. ⚠️
+
 This is an example of a job which can be run that is responsible for
 suspending licenses associated with a duplicate machine fingerprint,
 allowing you to enforce fingerprint uniqueness across a policy. This
